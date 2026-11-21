@@ -1,0 +1,40 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+debug.keystore
+
+# Node.js dependencies and build output
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
+# Environment variables and secrets
+.env*
+!.env.example
+
+# Local SQLite database
+data/*.db
+data/*.db-*
+
+# Build directories
+**/build/
+
+# Editor and operating system files
+.vscode/
+Thumbs.db
